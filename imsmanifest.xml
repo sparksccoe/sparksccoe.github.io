@@ -1,0 +1,95 @@
+<?xml version="1.0" standalone="no" ?>
+<manifest identifier="GSdtr0TcEGsrYZ-GlulwvbnuGq7czVShZRigCd9Z" version="1.3"
+  xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
+  xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3"
+  xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3"
+  xmlns:imsss="http://www.imsglobal.org/xsd/imsss"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
+                      http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>CAM 1.3</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="B0">
+    <organization identifier="B0" adlseq:objectivesGlobalToSystem="false">
+      <title>What is Learning Acceleration?</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>What is Learning Acceleration?</title>
+        <adlcp:dataFromLMS>eyJjcHYiOiJaUmlnQ2Q5WiIsInJsZCI6ZmFsc2V9</adlcp:dataFromLMS>
+        <imsss:sequencing>
+          <imsss:deliveryControls tracked="true" completionSetByContent="true" objectiveSetByContent="true"/>
+        </imsss:sequencing>
+      </item>
+      <metadata>
+        <adlcp:location>metadata.xml</adlcp:location>
+      </metadata>
+      <imsss:sequencing>
+        <imsss:controlMode choice="true" flow="true"/>
+        <imsss:deliveryControls tracked="true" completionSetByContent="false" objectiveSetByContent="false"/>
+      </imsss:sequencing>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormType="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Italic.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Bold.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Regular.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Light.woff" />
+<file href="scormcontent/assets/YPzRJuYgryi707jN_small.png" />
+<file href="scormcontent/assets/y-V5DVo24ucxGLlK_5IsY-ms0mJ8Ztr1y.png" />
+<file href="scormcontent/assets/MJZ6mT-29F6Fo0Xi_ZBjqrExr5vnWPBRQ.jpg" />
+<file href="scormcontent/assets/DTpT_O78gtSw5VqE_70UoMrOX9BDAmwbq.png" />
+<file href="scormcontent/assets/msWgLc9oWxefUjy1_svAi43t9bbcvGmH2.png" />
+<file href="scormcontent/assets/0GEG1VNOaZjIBe-d_Fbt_UNyT8BhXSWYn.png" />
+<file href="scormcontent/assets/GHBU38QSYCCaptQ9_dtwr4_5gNRQwLjEH.png" />
+<file href="scormcontent/assets/dCNNCRreod2Jx1MC_WA4kSLl-9qSu7BUs.png" />
+<file href="scormcontent/assets/wv2kuwUT2BMo4qy1_01IjTL9F0IWb8LEv.png" />
+<file href="scormcontent/assets/rpXz5KhSsrpvyQux_SiYr5nz3jJNBPQG7.png" />
+<file href="scormcontent/assets/YHUd5wzjjKouIqt2_e9J06zatA_mYf_Cr.png" />
+<file href="scormcontent/assets/OqpbeXQUAk10IVJK_smO2jcrUCK2k55vZ.png" />
+<file href="scormcontent/assets/jJRph31qJRDhYGqQ_1_architecture.jpg" />
+<file href="scormcontent/assets/VyQ3Q1x4wFLQWqju_example-header-image.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
